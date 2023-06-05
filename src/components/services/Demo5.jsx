@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-import { copy, linkIcon, loader, tick } from "../assets";
-import { useLazyGetSummaryQuery } from "../services/article";
+import { copy, linkIcon, loader, tick } from "../../assets";
+import { useLazyGetSummaryQuery } from "../../services/article";
 
 const Demo = () => {
   const [article, setArticle] = useState({
@@ -62,7 +62,7 @@ const Demo = () => {
   return (
     <section className='mt-16 w-full max-w-xl'>
       <div>
-      <span className="orange_gradient text-4xl">Article Summarizer</span>
+      <span className="orange_gradient text-4xl">Article Generator</span>
       </div>
       {/* Search */}
       <div className='flex flex-col w-full gap-2 pt-5'>
