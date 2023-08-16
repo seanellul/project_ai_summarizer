@@ -62,7 +62,7 @@ const Demo = () => {
   return (
     <section className='mt-16 w-full max-w-xl'>
       <div>
-      <span className="orange_gradient text-4xl">Article Generator</span>
+      <span className="orange_gradient text-4xl">Transcript Generator</span>
       </div>
       {/* Search */}
       <div className='flex flex-col w-full gap-2 pt-5'>
@@ -77,8 +77,8 @@ const Demo = () => {
           />
 
           <input
-            type='url'
-            placeholder='Paste the article link'
+            type='file'
+            placeholder='Provide Audio File'
             value={article.url}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             onKeyDown={handleKeyDown}

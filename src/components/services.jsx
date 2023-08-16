@@ -7,7 +7,7 @@ import Demo5 from './services/Demo5';
 import Demo6 from './services/Demo6';
 
 const Services = () => {
-  const services = ["Article Writer 1", "Article Writer 2", "Article Writer 3", "Article Summariser", "Transcript Provider", "Article Generator"];
+  const services = ["Commercial Team [Felicia]", "Shaggy's Assitant", "Sacha's Orwell", "Article Summariser", "Transcript Generator", "Article Generator"];
   const demos = [Demo1, Demo2, Demo3, Demo4, Demo5, Demo6];
   const [openDemos, setOpenDemos] = useState([]);
 
